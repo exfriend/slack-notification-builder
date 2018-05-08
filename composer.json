@@ -1,0 +1,28 @@
+{
+  "name": "exfriend/slack-notification-builder",
+  "type": "library",
+  "description": "Fluent notification builder for Laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "exfriend",
+      "email": "i@zlad.tk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Exfriend\\SlackNotificationBuilder\\": "./"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Exfriend\\SlackNotificationBuilder\\SlackNotificationBuilderServiceProvider"
+      ]
+    }
+  }
+}
