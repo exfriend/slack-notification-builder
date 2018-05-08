@@ -1,4 +1,4 @@
-# slack-notification-builder
+# Slack Notification Builder
 Fluent notification builder for Laravel
 
 ## Installation on Laravel 5.5+
